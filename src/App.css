@@ -1,0 +1,100 @@
+:root {
+    --blue: #4580BA
+}
+.main {
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url("/public/background/back1.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.information-h2{
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+}
+.information-holder {
+    display: flex;
+    justify-content: space-between;
+    width: 620px;
+    height: 278.5520324707031px;
+    top: 270.86865234375px;
+    left: 330px;
+
+}
+.information-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 448.7782897949219px;
+    height: 278.5520324707031px;
+    top: 270.86865234375px;
+    left: 330px;
+    border-radius: 49.00452423095703px;
+}
+.information-first_bottom {
+    display: flex;
+    align-items: center;
+}
+.information-second {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 143px;
+    height: 278px;
+    top: 271px;
+    left: 807px;
+    border-radius: 29.301673889160156px;
+
+}
+.information-change {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.information-button {
+    background-color: white;
+    border: none;
+    color: var(--blue);
+    width: 151.86666870117188px;
+    height: 34px;
+    top: 610px;
+    left: 564px;
+    border-radius: 21.53333282470703px;
+}
+.information-first_span {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 154.27px;
+}
+.information-first_h4 {
+    font-weight: 500;
+    font-size: 24px;
+}
+.information-img {
+  max-height: 150px;
+  max-width: 150px;
+}
+.information-second_divs {
+    width: 97.60356140136719px;
+    height: 32.38605880737305px;
+    top: 309.556640625px;
+    left: 831.6513671875px;
+    padding: 0px 0.000003814697265625px 0px 0px;
+    border-radius: 15.4219331741333px;
+    display: flex;
+    align-items: center;
+}
+.icons {
+    margin-right: 8px;
+}
+.second-spans{
+    font-weight: 700;
+}
